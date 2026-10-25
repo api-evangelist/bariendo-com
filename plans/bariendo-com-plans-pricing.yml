@@ -1,0 +1,23 @@
+generated: '2026-10-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://everself.com/pricing-financing/
+sources:
+- https://everself.com/pricing-financing/
+name: Bariendo Inc. pricing
+audience: consumer
+pricing_basis: free
+plans:
+- name: ESG Stomach Tightening®
+  price_text: $12,995 Financing starting at $297 /month
+- name: Everself ESG Max
+  price_text: $15,995 Financing starting at $366 /month
+- name: Gastric Balloon
+  price_text: $7,495 Financing starting at $172 /month
+- name: Revision of Prior Bariatric Surgery
+  price_text: $11,995 Financing starting at $275 /month
+- name: Everself Medications Concierge 6-month program
+  price_text: $895 Financing starting at $149 /month
+- name: Everself Medications Concierge 12-month program
+  price_text: $1,495 Financing starting at $125 /month
+docs: https://everself.com/pricing-financing/

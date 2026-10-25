@@ -1,0 +1,22 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/bariendo-com/integrations
+- https://zapier.com/apps/bariendo/integrations
+- https://zapier.com/apps/bariendo-inc/integrations
+- https://n8n.io/integrations/bariendo-com/
+- https://n8n.io/integrations/bariendo/
+- https://composio.dev/toolkits/bariendo-com
+- https://monid.ai/tools/bariendo-com
+checked:
+- https://composio.dev/toolkits/bariendo-com
+- https://monid.ai/tools/bariendo-com
+- https://n8n.io/integrations/bariendo-com/
+- https://n8n.io/integrations/bariendo/
+- https://zapier.com/apps/bariendo-com/integrations
+- https://zapier.com/apps/bariendo-inc/integrations
+- https://zapier.com/apps/bariendo/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

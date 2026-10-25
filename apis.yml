@@ -1,25 +1,81 @@
 aid: bariendo-com
+
 name: Bariendo Inc.
-description: 'Bariendo Inc. is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by 500-global) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://everself.com/og/everself-social.jpg
+
+description: 'Bariendo Inc. is a venture‑backed technology company identified in the API Evangelist harvest backlog. While the stub entry provides basic corporate metadata, no public website, documentation, or API endpoints have been verified for Bariendo. The company appears to lack an active online presence under its own domain, and attempts to resolve https://bariendo.com redirect to an unrelated site, suggesting the domain is not owned by the company. Consequently, no API specifications, developer portals, or other technical resources are currently available for profiling.'
+
 url: https://raw.githubusercontent.com/api-evangelist/bariendo-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
-apis: []
+- Technology
+- Venture-backed
+- Startup
+- API
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- 500-global
+
 common:
+- type: Vendors
+  url: vendors/bariendo-com-vendors.yml
+- type: Plans
+  url: plans/bariendo-com-plans-pricing.yml
+- type: Hosts
+  url: hosts/bariendo-com-hosts.yml
+- type: TermsOfService
+  url: https://everself.com/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://everself.com/legal/privacy-policy
+- type: Pricing
+  url: https://everself.com/pricing-financing/
+- type: Newsroom
+  url: https://everself.com/press/
+- type: Login
+  url: https://app.everself.com/login
+- type: Leadership
+  url: https://everself.com/team/ali-abbas/
+- type: Blog
+  url: https://everself.com/blog/
 - type: Website
   url: https://bariendo.com
+- type: DomainSecurity
+  url: security/bariendo-com-domain-security.yml
+
+apis: []
+
+x-backed-by:
+- 500-global
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: No public website, documentation, or API endpoints were found for Bariendo Inc.
+  evidence:
+    - url: https://bariendo.com
+      status: 301
+  checked: '2026-10-25'
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

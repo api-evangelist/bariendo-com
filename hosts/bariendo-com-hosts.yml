@@ -1,0 +1,70 @@
+generated: '2026-10-25'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 2
+  other_domain: 3
+  platform: 0
+  roles:
+  - api
+  - identity
+  - marketing
+  - website
+hosts:
+- host: api.bariendo.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: bariendo.com
+  role: api
+  relation: own
+- host: api.everself.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: everself.com
+  role: api
+  relation: other-domain
+- host: app.everself.com
+  found_by:
+  - pointer
+  types:
+  - Login
+  serves: []
+  registrable_domain: everself.com
+  role: identity
+  relation: other-domain
+- host: bariendo.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Website
+  serves: []
+  registrable_domain: bariendo.com
+  role: website
+  relation: own
+- host: everself.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  - Pricing
+  - Newsroom
+  - Leadership
+  - Blog
+  serves: []
+  registrable_domain: everself.com
+  role: marketing
+  relation: other-domain
